@@ -1,0 +1,42 @@
+.thumb{
+    cursor: pointer;
+}
+
+.btn-add, .btn-delete {
+    background-color: rgb(46, 172, 255); 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    outline: 0;
+    border-radius: 0.5em;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 480px){
+    .btn-add, .btn-delete {
+        padding: 17px 17px;
+        color: rgb(30, 85, 148);
+    }
+}
+
+.btn-add {
+    background-color: rgb(46, 172, 255); 
+}
+
+.btn-add:hover{
+    background-color: rgb(30, 165, 255); 
+}
+
+.btn-delete {
+    background-color: rgb(253, 62, 62); 
+}
+
+.btn-delete:hover {
+    background-color:  rgb(255, 38, 38); 
+}

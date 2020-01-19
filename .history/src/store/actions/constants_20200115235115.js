@@ -1,0 +1,4 @@
+export const INCREMENT_FRIENDS = "INCREMENT_FRIENDS";
+export const DECREMENT_FRIENDS = "DECREMENT_FRIENDS";
+export const LIKED_APP = "LIKED_APP";
+export const NOT_LIKED_APP = "NOT_LIKED_APP";

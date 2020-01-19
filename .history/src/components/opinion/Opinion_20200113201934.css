@@ -1,0 +1,11 @@
+.thumb{
+    cursor: pointer;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 480px){
+    .thumb{
+        font-size: 30px;
+    }
+}
+

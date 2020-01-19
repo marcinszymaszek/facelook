@@ -1,0 +1,18 @@
+#thumb{
+    cursor: pointer;
+}
+
+.btn-add{
+    background-color: rgb(46, 172, 255); /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: 0;
+    border-radius: 2em;
+}

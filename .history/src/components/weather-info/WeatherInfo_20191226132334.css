@@ -1,0 +1,28 @@
+body{
+    color: rgb(255, 255, 255);
+    font-family: Helvetica, sans-serif;
+    font-size: 1.5em;
+    background-color: rgb(99, 120, 151);
+}
+
+.info-container{
+    line-height: 20px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+    @media screen and max-width(1028px){
+        color: red;
+    }
+}
+
+@media screen and (max-width: 1028px){
+        .info-container{
+            font-size: 1em;
+        }
+    }
+
+@media screen and (max-width: 480px){
+        .info-container{
+            font-size: 0.9em;
+        }
+    }
