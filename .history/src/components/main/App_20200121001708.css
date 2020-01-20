@@ -2,7 +2,7 @@ body {
     background: rgb(34,193,195);
     background: linear-gradient(0deg, rgba(34,193,195,1) 50%, rgba(45,253,132,1) 100%); 
     background-repeat: no-repeat;
-    height: max-content;
+    height: 100%;
 }
 
 .main-container {
@@ -20,20 +20,10 @@ body {
     .main-container {
             font-size: 1.2em;
         }
-        .user-box{
-            margin: 10px 10px;
-        }
     }
     
-/* @media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
         .user-box{
             margin: 10px 10px;
         }
-        } */
-
-@media screen and (max-width: 480px){
-            .main-container {
-                height: auto;
-                margin-bottom: 20%;
-            }
-            }
+        }

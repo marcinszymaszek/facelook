@@ -4,7 +4,7 @@ import './Users.css'
 const Users = ({ allUsers }) => {
 
   return (
-      <div className="users-container">
+      <div className="main-container">
         {allUsers}
       </div>
   )

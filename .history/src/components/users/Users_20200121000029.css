@@ -1,0 +1,10 @@
+img{
+    margin-bottom: 0.5rem;
+}
+
+.users-container {
+display: flex;
+flex-flow:  wrap;
+/* align-content: center; */
+align-items: stretch;
+}

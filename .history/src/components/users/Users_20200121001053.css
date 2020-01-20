@@ -13,6 +13,7 @@ justify-content: space-around;
 @media screen and (max-width: 768px){
     .users-container {
         justify-content: space-evenly;
+        margin: 10px 10px;
         }
 }
 

@@ -33,10 +33,10 @@ const App = () => {
 
   const allUsers = data.data.map(user => {
     return <>
-      <span className="user-box">
+      <p className="basic-info-article">
         <img src={user.avatar} alt='avatar' /><br />
         User name: <strong>{user.first_name}</strong>
-      </span>
+      </p>
     </>
   }
   );

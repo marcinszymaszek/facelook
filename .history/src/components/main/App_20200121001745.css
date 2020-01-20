@@ -20,20 +20,10 @@ body {
     .main-container {
             font-size: 1.2em;
         }
-        .user-box{
-            margin: 10px 10px;
-        }
     }
     
-/* @media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
         .user-box{
             margin: 10px 10px;
         }
-        } */
-
-@media screen and (max-width: 480px){
-            .main-container {
-                height: auto;
-                margin-bottom: 20%;
-            }
-            }
+        }

@@ -16,12 +16,13 @@ body {
     margin: 5% 20%;
 }
 
+.user-box{
+    margin: 10px 10px;
+}
+
 @media screen and (max-width: 1028px){
     .main-container {
             font-size: 1.2em;
-        }
-        .user-box{
-            margin: 10px 10px;
         }
     }
     

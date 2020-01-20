@@ -1,0 +1,10 @@
+img{
+    margin-bottom: 0.5rem;
+}
+
+.users-container {
+display: flex;
+flex-flow: column wrap;
+
+align-items: stretch;
+}
