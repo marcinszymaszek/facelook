@@ -1,0 +1,33 @@
+body {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 50%, rgba(45,253,132,1) 100%); 
+    background-repeat: no-repeat;
+    height: max-content;
+}
+
+.main-container {
+    color: rgb(255, 255, 255);
+    font-family: Lato, sans-serif;
+    font-size: 1.5em;
+    height: 100vh;
+    line-height: 20px;
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 5% 20%;
+}
+
+@media screen and (max-width: 1028px){
+    .main-container {
+            font-size: 1.2em;
+        }
+        .user-box{
+            margin: 10px 10px;
+        }
+    }
+
+@media screen and (max-width: 480px){
+            .main-container {
+                height: auto;
+                margin-bottom: 20%;
+            }
+            }
