@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainInfo tests Snapshot matches 1`] = `
+<div
+  className="inline-container"
+>
+  <div
+    className="inner-box"
+  >
+    <h3>
+      Amount of users: 
+      6
+    </h3>
+    <svg
+      className="eye-icon"
+      onClick={[Function]}
+    >
+      eye-slash-solid.svg
+    </svg>
+  </div>
+</div>
+`;

@@ -1,0 +1,11 @@
+@import "../../styles/scss/helpers";
+
+img {
+    margin-bottom: 0.5rem;
+}
+
+@include bp(xs) {
+    .thumb {
+        font-size: 30px;
+    }
+}

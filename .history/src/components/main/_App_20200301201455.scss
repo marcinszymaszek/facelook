@@ -1,0 +1,12 @@
+@import "../../styles/scss/helpers";
+
+
+
+.user-box {
+    @include bp(lg) {
+        margin: 10px 10px;
+    }
+    @include bp(xs) {
+        margin-top: 20px;
+    }
+}

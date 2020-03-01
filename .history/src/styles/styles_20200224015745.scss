@@ -1,0 +1,9 @@
+//general style modules
+@import "scss/helpers.scss";
+
+//components styles
+@import "../components/main/App";
+@import "../components/friends/Friends";
+@import "../components/opinion/Opinion";
+@import "../components/users/Users";
+

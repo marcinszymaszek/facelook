@@ -1,0 +1,8 @@
+@import "../../styles/scss/helpers";
+
+
+@include bp(lg) {
+    .user-box {
+        margin: 10px 10px;
+    }
+}

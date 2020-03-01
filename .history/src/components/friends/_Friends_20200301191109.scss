@@ -1,0 +1,17 @@
+@import "../../styles/scss/helpers";
+
+.plus-circle-icon,
+.minus-circle-icon {
+    cursor: pointer;
+    margin-left: 250px;
+    margin-right: 0px;
+    margin-top: 20px;
+    // position: absolute;
+}
+
+@include bp(xs) {
+
+    h3 {
+        margin-top: 15%;
+    }
+}
