@@ -56,11 +56,12 @@ body {
 }
 
 svg {
+    // background: red;
+    fill-opacity: 0.4;
     cursor: pointer;
     width: 33px;
-    height: 33px;
-    margin-top: 12px;
-    &:hover {
+
+    :hover {
         transform: scale(1.1);
     }
 }

@@ -2,9 +2,6 @@
 
 .plus-circle-icon,
 .minus-circle-icon {
-    padding-right: 5px;
-    padding-bottom: 5px;
-    margin-top: 15px;
     @include bp(xs) {
         margin-top: -10px;
     }

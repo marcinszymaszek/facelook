@@ -56,11 +56,13 @@ body {
 }
 
 svg {
-    cursor: pointer;
     width: 33px;
-    height: 33px;
-    margin-top: 12px;
-    &:hover {
+}
+
+.icon-transparent-box {
+    width: 33px;
+    height: 22px;
+    :hover {
         transform: scale(1.1);
     }
 }

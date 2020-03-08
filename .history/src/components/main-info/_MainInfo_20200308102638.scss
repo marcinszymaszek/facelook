@@ -1,10 +1,13 @@
 @import "../../styles/scss/helpers";
 
 .eye-icon {
+    cursor: pointer;
     margin-left: 45px;
-    margin-top: 18px;
     @include bp(xs) {
         margin-left: 0px;
         margin-top: -10px;
+    }
+    :hover{
+        color: red;
     }
 }

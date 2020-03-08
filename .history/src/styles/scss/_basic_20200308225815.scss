@@ -59,8 +59,11 @@ svg {
     cursor: pointer;
     width: 33px;
     height: 33px;
-    margin-top: 12px;
-    &:hover {
-        transform: scale(1.1);
-    }
+    margin-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+svg:hover>path {
+    transform: scale(1.1);
 }
