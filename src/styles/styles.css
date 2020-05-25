@@ -82,7 +82,9 @@ svg:hover {
 
 .plus-circle-icon,
 .minus-circle-icon {
-  cursor: pointer;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  margin-top: 15px;
 }
 @media (max-width: 576px) {
   .plus-circle-icon,
@@ -96,7 +98,7 @@ svg:hover {
 }
 @media (max-width: 576px) {
   .minus-circle-icon {
-    margin-left: 200px;
+    margin-left: 0px;
   }
 }
 
@@ -105,7 +107,6 @@ svg:hover {
 }
 
 .thumb-icon {
-  cursor: pointer;
   margin-left: 85px;
 }
 @media (max-width: 576px) {
@@ -129,8 +130,8 @@ img {
   }
 }
 .eye-icon {
-  cursor: pointer;
   margin-left: 45px;
+  margin-top: 18px;
 }
 @media (max-width: 576px) {
   .eye-icon {
